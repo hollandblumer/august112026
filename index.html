@@ -548,7 +548,7 @@ function openJournalismSection(section){
   var items = list.map(function(p){ return '<li style="font-size:14px; line-height:1.5; margin-top:8px">' + p + '</li>'; }).join("");
   var signature = section === "recognition" ?
     '<div style="color:var(--gold); font-size:13px; font-weight:700; margin-top:14px">⭐ Signature Experience</div>' +
-    '<div style="font-weight:700; font-size:18px; line-height:1.35; margin-top:10px">Published. Byline. Official.</div>' +
+    '<div style="font-weight:700; font-size:18px; line-height:1.35; margin-top:10px">Published. Bylined. Official.</div>' +
     '<div style="font-size:14px; line-height:1.55; color:var(--muted); margin-top:8px">Not writing the news — contributing the piece only you could find.</div>' : "";
   var spotlight = section === "league" ? '<div style="margin-top:20px; background:var(--goldsoft); border:1px solid rgba(198,160,46,.27); border-radius:12px; padding:14px; font-size:14px; line-height:1.55; color:#8A6E14; font-weight:600">Spotlight Tier: the season\'s top contributor earns a community byline.</div>' : "";
   var m = document.getElementById("peek");
